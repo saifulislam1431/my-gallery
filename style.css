@@ -81,3 +81,43 @@ body{
     gap: 20px;
     margin-top: 10px;
 }
+
+/* Footer style start */
+#footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 17px;
+}
+
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
+}
+/* Footer style start */
+
+/* Responsive layout */
+
+@media screen and (max-width:600px) {
+    .container{
+        padding: 30px 20px;
+    }
+     .img1,.img4,.img5{
+         width: 100px;
+     }
+     .img2,.img3{
+         width: 220px;
+     }
+     .img6{
+         width: 100px;
+     }
+     #footer{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+}
